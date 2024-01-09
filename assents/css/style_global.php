@@ -15,25 +15,30 @@
 		padding: 0;
 		font-family: 'Poppins', sans-serif;
 	}
-	.bg-stack{
-		background-color: #5182ED;
+	.float-rigth{
+		float: right;
 	}
-	.bg-stack-grad{
-		background-image: linear-gradient(to right, #7351ed, #6b66f1, #6878f2, #6a88f1, #7396ee, #7499ec, #769ceb, #789fe9, #6e98ea, #6491ec, #5a89ec, #5182ed);
+	.title-input{
+		margin-top: 30px;
+		color: black;
+		float: left;
 	}
-	.fluter{
-		transform: translateY(0px);
-		animation: float 3s ease-in-out infinite;
+	.btn-login{
+		width: 100%;
+		background: #00B9FF;
+		border: 0;
+		color: #fff;
+		margin-top: 25px;
 	}
-	@keyframes float{
-		0%{
-			transform: translateY(0px);
-		}
-		50%{
-			transform: translateY(-30px);
-		}
-		100%{
-			transform: translateY(0px);
-		}
+	.btn-social{
+		margin-top: 25px;
+		border: 0;
+		border-radius: 50%;
+		background-color: #008ec4;
+		color: #fff;
+	}
+	.links-login{
+		text-decoration: none;
+		color: black;
 	}
 </style>

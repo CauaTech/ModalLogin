@@ -22,7 +22,7 @@ if ($int == 0) {
 
 <!--HEAD COMPLETO-->
 <head>
-	<title>Vortex Agency</title>
+	<title>Modal Login</title>
 	<meta name="language" content="pt-BR">
 	<meta name="description" content="">
 	
@@ -41,7 +41,7 @@ if ($int == 0) {
 <?php #include($flow.'assents/app/load.php'); ?>
 
 <!--Ativar Navbar Editar-->
-<?php #include($flow.'assents/app/navbar.php'); ?>
+<?php include($flow.'assents/app/navbar.php'); ?>
 
 <!-- Body -->
 
